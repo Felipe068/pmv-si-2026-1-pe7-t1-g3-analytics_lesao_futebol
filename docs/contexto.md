@@ -180,12 +180,6 @@ de *winsorização* ou segmentação por tipo de lesão em modelos preditivos.
 
 ---
 
-### Referência
-
-MUZAFFAROV, S. **European Football Injuries 2020–2025**. Kaggle, 2024. Disponível em:
-https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025.
-Acesso em: 06 mar. 2026. Licença: CC BY-SA 4.0.
-
 # Canvas analítico
 
 Nesta seção, você deverá estruturar e preencher o seu Canvas Analítico, que tem como objetivo registrar a organização das ideias e apresentar o modelo de negócio do projeto.
@@ -207,3 +201,11 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvo
 
 > **Links Úteis**:
 > - [Padrão ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
+
+> MUZAFFAROV, Sanan. **European Football Injuries 2020-2025**. Versão 1. Kaggle, 2024. Disponível em: https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025. Acesso em: 07 mar. 2026.
+
+> CREATIVE COMMONS. **Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**. [S. l.], 2013. Disponível em: https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR. Acesso em: 07 mar. 2026.
+
+> PANDAS DEVELOPMENT TEAM. **pandas-dev/pandas: Pandas 2.2.2**. Zenodo, 2024. Disponível em: https://pandas.pydata.org/. Acesso em: 07 mar. 2026.
+
+> GOOGLE. **Google Colaboratory**. Mountain View, CA: Google, 2026. Disponível em: https://colab.research.google.com/. Acesso em: 07 mar. 2026.
