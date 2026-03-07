@@ -188,8 +188,8 @@ O Canvas deve ser preenchido integralmente, mesmo que algumas informações aind
 
 **Dica:** O Canvas Analítico serve como guia visual para alinhar expectativas e direcionar o desenvolvimento. Ele poderá (e deverá) ser revisitado e atualizado ao longo do projeto.
 
-> **Links Úteis**:
-> - [Modelo do Canvas Analítico](https://github.com/ICEI-PUC-Minas-PMV-SI/PesquisaExperimentacao-Template/blob/main/help/Software-Analtics-Canvas-v1.0.pdf)
+<img width="1045" height="734" alt="analitico" src="https://github.com/user-attachments/assets/862e25fd-e39d-4809-a26e-869757c54bca" />
+
 
 # Vídeo de apresentação da Etapa 01
 
