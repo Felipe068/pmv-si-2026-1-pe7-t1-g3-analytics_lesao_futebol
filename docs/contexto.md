@@ -41,20 +41,19 @@ Objetivo específico 2: Estimar o valor exato da ação ao final do período ana
 
 ## Justificativa
 
-Nesta seção, apresente a importância e a motivação para trabalhar com o conjunto de dados escolhido. Explique por que esse dataset é relevante e como ele se conecta ao problema identificado anteriormente.
+A ocorrência de lesões em jogadores profissionais de futebol representa um problema recorrente e relevante para clubes de alto rendimento. Estudos indicam que a incidência média de lesões no futebol profissional é de, em média, 8,1 lesões por 1000 horas de exposição (LÓPEZ-VALENCIANO et al., 2029). Segundo Lópes-Valenciano et al. (2019), durante jogos, esse risco é significativamente maior, podendo chegar a cerca de 36 lesões por 1000 horas, valor muito superior ao observado em sessões de treinamento, 3,7 lesões por 1000 horas. Além disso, estima-se que uma equipe profissional com aproximadamente 25 jogadores registre aproximadamente 50 lesões por temporada, evidenciando que esse fenômeno é frequente e tem impacto direto na rotina esportiva das equipes (LÓPEZ-VALENCIANO et al., 2029).
 
-Indique:
-* Razões para a escolha dos objetivos específicos – Justifique por que decidiu aprofundar sua investigação nessas metas, relacionando-as ao potencial de solução ou melhoria para o problema.
-* Relevância do estudo do problema – Mostre a importância de compreender e tratar a questão apresentada, tanto no contexto acadêmico quanto no profissional.
-* Impacto social, econômico ou ambiental – Descreva como o problema afeta a sociedade ou um setor específico, buscando sempre quantificar o impacto por meio de dados reais.
+Nesse sentido, as lesões comprometem diretamente a disponibilidade dos atletas durante a temporada de jogos e podem influenciar o desempenho coletivo das equipes. Ainda segundo Lópes-Valenciano et al. (2019), a disponibilidade de jogadores para participar das partidas apresenta uma forte correlação com o sucesso das equipes de futebol, indicando que times com maior número de atletas aptos a jogar tendem a alcançar melhores resultados esportivos, como melhor posição no ranking, maior número de vitórias, mais gols marcados e maior pontuação total ao longo da temporada.
 
-**Importante:**
-* Apresente números, estatísticas e informações concretas, citando as fontes (relatórios, artigos científicos, portais oficiais etc.).
-* Mantenha a objetividade e a clareza, evitando argumentos genéricos.
-* Construa um texto coeso que conecte o problema, os objetivos e a relevância do trabalho.
+Além do impacto esportivo, as lesões também geram consequências econômicas relevantes, podendo gerar custos médios de aproximadamente €500.000 por mês de afastamento de um jogador em equipes de alto nível. Esses valores demonstram que a indisponibilidade de atletas não afeta apenas o desempenho em campo, mas também representa um custo financeiro significativo para as equipes esportivas(EKSTRAND, J., 2013 apud LÓPEZ-VALENCIANO et al., 2019). Por isso, esses fatores evidenciam a relevância de estratégias de prevenção e monitoramento de lesões no futebol profissional.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Outro aspecto importante é a diversidade dos tipos de lesões esportivas. Elas são consideradas eventos multifatoriais, influenciados por variáveis como idade do atleta, posição em campo, carga de treinamento, número de partidas disputadas e histórico prévio de lesões. Estudos apontam que a maioria das lesões ocorrem em membros inferiores, principalmente em regiões como coxa, joelho e tornozelo. A presença de múltiplos fatores interdependentes dificulta a identificação de padrões apenas por observação humana ou análises simples, o que reforça a necessidade de abordagens baseadas em análise de dados (LÓPEZ-VALENCIANO et al., 2029).
+
+Diante desse cenário, o uso de técnicas de Inteligência Artificial e aprendizado de máquina é uma alternativa interessante para analisar grandes volumes de dados esportivos e identificar padrões associados à ocorrência de lesões. Modelos computacionais podem ser utilizados para estimar riscos de lesão, prever períodos de afastamento ou identificar fatores que aumentam a probabilidade de lesões em determinados contextos.
+
+Dessa forma, a análise do conjunto de dados escolhido neste trabalho busca contribuir para o desenvolvimento de modelos de apoio à decisão que possam auxiliar departamentos médicos, preparadores físicos e comissões técnicas na gestão da saúde e da performance dos atletas. Além de contribuir para o avanço acadêmico na aplicação de ciência de dados ao esporte, esse tipo de abordagem possui potencial de impacto prático na prevenção de lesões, na otimização do planejamento esportivo e na redução de custos associados ao afastamento de jogadores. 
+
+Por fim, modelos preditivos podem também auxiliar processos de contratação de atletas, permitindo avaliar o histórico de lesões e o risco de afastamento futuro, o que pode contribuir para decisões mais estratégicas sobre a viabilidade e o retorno esperado de um investimento em determinado jogador.
 
 ## Público-Alvo
 
@@ -190,15 +189,13 @@ Nesta etapa, o grupo deverá produzir um vídeo de 5 a 8 minutos apresentando o 
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho utilizando o padrão ABNT.
-
-> **Links Úteis**:
-> - [Padrão ABNT PUC Minas](https://portal.pucminas.br/biblioteca/index_padrao.php?pagina=5886)
-
-> MUZAFFAROV, Sanan. **European Football Injuries 2020-2025**. Versão 1. Kaggle, 2024. Disponível em: https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025. Acesso em: 07 mar. 2026.
-
 > CREATIVE COMMONS. **Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**. [S. l.], 2013. Disponível em: https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR. Acesso em: 07 mar. 2026.
+
+> GOOGLE. **Google Colaboratory**. Mountain View, CA: Google, 2026. Disponível em: https://colab.research.google.com/. Acesso em: 07 mar. 2026.
+
+> LÓPEZ-VALENCIANO, Alejandro et al. Epidemiology of injuries in professional football: a systematic review and meta-analysis. British Journal of Sports Medicine, v. 54, n. 12, p. 711–718, 2019. Disponível em: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9929604/>. Acesso em: 6 mar. 2026.
+ 
+> MUZAFFAROV, Sanan. **European Football Injuries 2020-2025**. Versão 1. Kaggle, 2024. Disponível em: https://www.kaggle.com/datasets/sananmuzaffarov/european-football-injuries-2020-2025. Acesso em: 07 mar. 2026.
 
 > PANDAS DEVELOPMENT TEAM. **pandas-dev/pandas: Pandas 2.2.2**. Zenodo, 2024. Disponível em: https://pandas.pydata.org/. Acesso em: 07 mar. 2026.
 
-> GOOGLE. **Google Colaboratory**. Mountain View, CA: Google, 2026. Disponível em: https://colab.research.google.com/. Acesso em: 07 mar. 2026.
