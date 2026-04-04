@@ -26,7 +26,6 @@ print("First 5 records:", df.head())
 a = df.columns = df.columns.str.lower().str.strip().str.replace(" ", "_")
 print(a)
 
-'''
 #Gerando gráfico básico
 sns.set_style("whitegrid")
 plt.figure()
@@ -35,4 +34,3 @@ plt.title("Distribuição da duração das lesões")
 plt.xlabel("Dias lesionado")
 plt.ylabel("Frequência")
 plt.show()
-'''
