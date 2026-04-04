@@ -2,11 +2,11 @@ Gráfico Pairplot:
 
 Comandos em python para gerar o gráfico:
 
-df_pair = df[["player_age", "days", "games_missed"]]
+  df_pair = df[["player_age", "days", "games_missed"]]
 
-sns.pairplot(df_pair)
+  sns.pairplot(df_pair)
 
-plt.show()
+  plt.show()
 
 Gráfico gerado:
 
