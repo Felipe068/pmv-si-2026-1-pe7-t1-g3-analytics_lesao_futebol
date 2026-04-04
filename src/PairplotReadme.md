@@ -39,4 +39,3 @@ Conclusão
 
 A análise por meio do pairplot confirma que, embora a idade dos jogadores apresente uma distribuição relativamente equilibrada, a severidade das lesões é caracterizada por alta assimetria e forte presença de outliers. A ausência de uma relação linear clara entre idade e jogos perdidos indica que a idade, de forma isolada, possui baixo poder explicativo sobre a gravidade das lesões.
 
-Esses resultados reforçam a necessidade de abordagens mais robustas e multivariadas para modelagem preditiva, incorporando outras variáveis relevantes, como posição em campo, tipo de lesão e contexto competitivo. Além disso, a presença de outliers e a distribuição não normal dos dados indicam a importância do uso de técnicas de transformação e métodos estatísticos robustos nas etapas seguintes da análise.
