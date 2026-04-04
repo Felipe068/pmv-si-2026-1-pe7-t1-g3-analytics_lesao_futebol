@@ -1,5 +1,3 @@
-# Install dependencies as needed:
-# pip install kagglehub[pandas-datasets]
 import kagglehub
 from kagglehub import KaggleDatasetAdapter
 import matplotlib.pyplot as plt
@@ -13,24 +11,11 @@ df = kagglehub.load_dataset(
   KaggleDatasetAdapter.PANDAS,
   "sananmuzaffarov/european-football-injuries-2020-2025",
   file_path,
-  # Provide any additional arguments like 
-  # sql_query or pandas_kwargs. See the 
-  # documenation for more information:
-  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
 )
 
-print("First 5 records:", df.head())
+# Selecionar apenas colunas numéricas relevantes
+df_pair = df[["player_age", "days", "games_missed"]]
 
-'''------------------------------------------------------------------'''
-
-a = df.columns = df.columns.str.lower().str.strip().str.replace(" ", "_")
-print(a)
-
-#Gerando gráfico básico
-sns.set_style("whitegrid")
-plt.figure()
-plt.hist(df["days"], bins=50)
-plt.title("Distribuição da duração das lesões")
-plt.xlabel("Dias lesionado")
-plt.ylabel("Frequência")
+# Gerar o pairplot
+sns.pairplot(df_pair)
 plt.show()
