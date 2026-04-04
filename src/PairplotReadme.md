@@ -1,6 +1,6 @@
 Gráfico Pairplot:
 
-Comandos em python para gerar o gráfico:
+Comandos em python para gerar o gráfico: pairplot.py
 
   df_pair = df[["player_age", "days", "games_missed"]]
 
