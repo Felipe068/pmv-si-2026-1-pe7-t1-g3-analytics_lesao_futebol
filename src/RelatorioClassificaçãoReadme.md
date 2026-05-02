@@ -25,7 +25,7 @@ Resultado:
 
 Análise: 
 
-1. Desempenho por Classe (Onde o modelo brilha e onde falha)
+1. Desempenho por Classe:
 Classe 0 (Baixo Risco / Lesões Leves): O modelo é praticamente perfeito neste ponto. Com 100% de Precisão e Recall, ele identifica com total segurança quando uma lesão não será grave. Isso é comum porque essa é a classe majoritária (892 casos).
 
 Classe 1 (Alto Risco / Lesões Graves): 
