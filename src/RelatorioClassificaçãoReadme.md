@@ -23,3 +23,19 @@ Código em python para gerar o relatório de classificação: [Script Relatório
 Resultado:
 <img width="681" height="328" alt="image" src="https://github.com/user-attachments/assets/d6f42e01-5082-4c60-b228-dba0bc9115d3" />
 
+Análise: 
+
+1. Desempenho por Classe (Onde o modelo brilha e onde falha)
+Classe 0 (Baixo Risco / Lesões Leves): O modelo é praticamente perfeito neste ponto. Com 100% de Precisão e Recall, ele identifica com total segurança quando uma lesão não será grave. Isso é comum porque essa é a classe majoritária (892 casos).
+
+Classe 1 (Alto Risco / Lesões Graves): 
+
+Precisão de 91%: Quando o modelo aponta uma lesão grave, ele acerta em 9 de cada 10 vezes. 
+
+Recall de 86%: O modelo "deixou passar" 14% das lesões graves, classificando-as erroneamente como leves. Em um cenário de alto rendimento, esse é o risco que o departamento médico quer minimizar.
+
+2. O Equilíbrio (F1-Score e Support)
+F1-Score (0.88): Para a classe de alto risco, um F1 de 0.88 é muito sólido. Ele mostra que o modelo não está apenas "chutando" que tudo é lesão leve para acertar a acurácia global; ele realmente aprendeu padrões que distinguem a gravidade.
+
+Support (892 vs 77): Há um desbalanceamento de classes. Existem muito mais dados de lesões curtas do que de lesões longas. Isso explica por que as médias "Weighted" (ponderadas) são altas, enquanto a "Macro" (média simples) é um pouco menor (0.93).
+
