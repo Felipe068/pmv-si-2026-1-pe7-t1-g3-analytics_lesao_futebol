@@ -18,7 +18,7 @@ Média Macro (Macro Average): Avalia o desempenho médio tratando todas as class
 
 Média Ponderada (Weighted Average): Calcula o desempenho médio levando em conta o peso proporcional de cada classe, sendo influenciada majoritariamente pelas categorias mais frequentes.
 
-Código em python para gerar o relatório de classificação:
+Código em python para gerar o relatório de classificação: [Script Relatório de Classificação](RltClass.py)
 
 Resultado:
 <img width="681" height="328" alt="image" src="https://github.com/user-attachments/assets/d6f42e01-5082-4c60-b228-dba0bc9115d3" />
